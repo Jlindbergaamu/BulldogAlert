@@ -16,6 +16,8 @@
 		2408493D249097E60073D8FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2408493B249097E60073D8FC /* LaunchScreen.storyboard */; };
 		24084948249097E70073D8FC /* BulldogAlertPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24084947249097E70073D8FC /* BulldogAlertPracticeTests.swift */; };
 		24084953249097E70073D8FC /* BulldogAlertPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24084952249097E70073D8FC /* BulldogAlertPracticeUITests.swift */; };
+		2444256D2490A3FE0085819D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2444256C2490A3FE0085819D /* LocationManager.swift */; };
+		244425712490B8050085819D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244425702490B8050085819D /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		2408494E249097E70073D8FC /* BulldogAlertPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BulldogAlertPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24084952249097E70073D8FC /* BulldogAlertPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulldogAlertPracticeUITests.swift; sourceTree = "<group>"; };
 		24084954249097E70073D8FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2444256C2490A3FE0085819D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		244425702490B8050085819D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		2408492C249097D90073D8FC /* BulldogAlertPractice */ = {
 			isa = PBXGroup;
 			children = (
+				2444256C2490A3FE0085819D /* LocationManager.swift */,
+				244425702490B8050085819D /* Data.swift */,
 				2408492D249097D90073D8FC /* AppDelegate.swift */,
 				2408492F249097D90073D8FC /* SceneDelegate.swift */,
 				24084934249097D90073D8FC /* ContentView.swift */,
@@ -271,7 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2408492E249097D90073D8FC /* AppDelegate.swift in Sources */,
+				244425712490B8050085819D /* Data.swift in Sources */,
 				24084930249097D90073D8FC /* SceneDelegate.swift in Sources */,
+				2444256D2490A3FE0085819D /* LocationManager.swift in Sources */,
 				24084935249097D90073D8FC /* ContentView.swift in Sources */,
 				24084933249097D90073D8FC /* BulldogAlertPractice.xcdatamodeld in Sources */,
 			);
