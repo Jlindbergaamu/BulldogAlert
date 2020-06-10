@@ -10,6 +10,8 @@ import UIKit
 import CoreData
 import CoreLocation
 
+//testgigi
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
