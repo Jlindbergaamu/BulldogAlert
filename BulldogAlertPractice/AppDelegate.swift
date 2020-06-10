@@ -11,6 +11,9 @@ import CoreData
 import CoreLocation
 
 //testgigi
+//YOu know the vibes niiiiiigaa
+
+var youknow = "Vibes"
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
