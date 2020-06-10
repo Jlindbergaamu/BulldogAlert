@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2408492E249097D90073D8FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2408492D249097D90073D8FC /* AppDelegate.swift */; };
+		24084930249097D90073D8FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2408492F249097D90073D8FC /* SceneDelegate.swift */; };
+		24084933249097D90073D8FC /* BulldogAlertPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24084931249097D90073D8FC /* BulldogAlertPractice.xcdatamodeld */; };
+		24084935249097D90073D8FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24084934249097D90073D8FC /* ContentView.swift */; };
+		24084937249097E60073D8FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24084936249097E60073D8FC /* Assets.xcassets */; };
+		2408493A249097E60073D8FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24084939249097E60073D8FC /* Preview Assets.xcassets */; };
+		2408493D249097E60073D8FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2408493B249097E60073D8FC /* LaunchScreen.storyboard */; };
+		24084948249097E70073D8FC /* BulldogAlertPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24084947249097E70073D8FC /* BulldogAlertPracticeTests.swift */; };
+		24084953249097E70073D8FC /* BulldogAlertPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24084952249097E70073D8FC /* BulldogAlertPracticeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24084944249097E70073D8FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24084922249097D80073D8FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24084929249097D90073D8FC;
+			remoteInfo = BulldogAlertPractice;
+		};
+		2408494F249097E70073D8FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24084922249097D80073D8FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24084929249097D90073D8FC;
+			remoteInfo = BulldogAlertPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2408492A249097D90073D8FC /* BulldogAlertPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulldogAlertPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2408492D249097D90073D8FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2408492F249097D90073D8FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24084932249097D90073D8FC /* BulldogAlertPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BulldogAlertPractice.xcdatamodel; sourceTree = "<group>"; };
+		24084934249097D90073D8FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		24084936249097E60073D8FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24084939249097E60073D8FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2408493C249097E60073D8FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2408493E249097E60073D8FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24084943249097E70073D8FC /* BulldogAlertPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BulldogAlertPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24084947249097E70073D8FC /* BulldogAlertPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulldogAlertPracticeTests.swift; sourceTree = "<group>"; };
+		24084949249097E70073D8FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2408494E249097E70073D8FC /* BulldogAlertPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BulldogAlertPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24084952249097E70073D8FC /* BulldogAlertPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulldogAlertPracticeUITests.swift; sourceTree = "<group>"; };
+		24084954249097E70073D8FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24084927249097D90073D8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24084940249097E70073D8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2408494B249097E70073D8FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24084921249097D80073D8FC = {
+			isa = PBXGroup;
+			children = (
+				2408492C249097D90073D8FC /* BulldogAlertPractice */,
+				24084946249097E70073D8FC /* BulldogAlertPracticeTests */,
+				24084951249097E70073D8FC /* BulldogAlertPracticeUITests */,
+				2408492B249097D90073D8FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2408492B249097D90073D8FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2408492A249097D90073D8FC /* BulldogAlertPractice.app */,
+				24084943249097E70073D8FC /* BulldogAlertPracticeTests.xctest */,
+				2408494E249097E70073D8FC /* BulldogAlertPracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2408492C249097D90073D8FC /* BulldogAlertPractice */ = {
+			isa = PBXGroup;
+			children = (
+				2408492D249097D90073D8FC /* AppDelegate.swift */,
+				2408492F249097D90073D8FC /* SceneDelegate.swift */,
+				24084934249097D90073D8FC /* ContentView.swift */,
+				24084936249097E60073D8FC /* Assets.xcassets */,
+				2408493B249097E60073D8FC /* LaunchScreen.storyboard */,
+				2408493E249097E60073D8FC /* Info.plist */,
+				24084931249097D90073D8FC /* BulldogAlertPractice.xcdatamodeld */,
+				24084938249097E60073D8FC /* Preview Content */,
+			);
+			path = BulldogAlertPractice;
+			sourceTree = "<group>";
+		};
+		24084938249097E60073D8FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				24084939249097E60073D8FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		24084946249097E70073D8FC /* BulldogAlertPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				24084947249097E70073D8FC /* BulldogAlertPracticeTests.swift */,
+				24084949249097E70073D8FC /* Info.plist */,
+			);
+			path = BulldogAlertPracticeTests;
+			sourceTree = "<group>";
+		};
+		24084951249097E70073D8FC /* BulldogAlertPracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24084952249097E70073D8FC /* BulldogAlertPracticeUITests.swift */,
+				24084954249097E70073D8FC /* Info.plist */,
+			);
+			path = BulldogAlertPracticeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24084929249097D90073D8FC /* BulldogAlertPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24084957249097E70073D8FC /* Build configuration list for PBXNativeTarget "BulldogAlertPractice" */;
+			buildPhases = (
+				24084926249097D90073D8FC /* Sources */,
+				24084927249097D90073D8FC /* Frameworks */,
+				24084928249097D90073D8FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BulldogAlertPractice;
+			productName = BulldogAlertPractice;
+			productReference = 2408492A249097D90073D8FC /* BulldogAlertPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24084942249097E70073D8FC /* BulldogAlertPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2408495A249097E70073D8FC /* Build configuration list for PBXNativeTarget "BulldogAlertPracticeTests" */;
+			buildPhases = (
+				2408493F249097E70073D8FC /* Sources */,
+				24084940249097E70073D8FC /* Frameworks */,
+				24084941249097E70073D8FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24084945249097E70073D8FC /* PBXTargetDependency */,
+			);
+			name = BulldogAlertPracticeTests;
+			productName = BulldogAlertPracticeTests;
+			productReference = 24084943249097E70073D8FC /* BulldogAlertPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2408494D249097E70073D8FC /* BulldogAlertPracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2408495D249097E70073D8FC /* Build configuration list for PBXNativeTarget "BulldogAlertPracticeUITests" */;
+			buildPhases = (
+				2408494A249097E70073D8FC /* Sources */,
+				2408494B249097E70073D8FC /* Frameworks */,
+				2408494C249097E70073D8FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24084950249097E70073D8FC /* PBXTargetDependency */,
+			);
+			name = BulldogAlertPracticeUITests;
+			productName = BulldogAlertPracticeUITests;
+			productReference = 2408494E249097E70073D8FC /* BulldogAlertPracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24084922249097D80073D8FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Justin Lindberg";
+				TargetAttributes = {
+					24084929249097D90073D8FC = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					24084942249097E70073D8FC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 24084929249097D90073D8FC;
+					};
+					2408494D249097E70073D8FC = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 24084929249097D90073D8FC;
+					};
+				};
+			};
+			buildConfigurationList = 24084925249097D80073D8FC /* Build configuration list for PBXProject "BulldogAlertPractice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24084921249097D80073D8FC;
+			productRefGroup = 2408492B249097D90073D8FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24084929249097D90073D8FC /* BulldogAlertPractice */,
+				24084942249097E70073D8FC /* BulldogAlertPracticeTests */,
+				2408494D249097E70073D8FC /* BulldogAlertPracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24084928249097D90073D8FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2408493D249097E60073D8FC /* LaunchScreen.storyboard in Resources */,
+				2408493A249097E60073D8FC /* Preview Assets.xcassets in Resources */,
+				24084937249097E60073D8FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24084941249097E70073D8FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2408494C249097E70073D8FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24084926249097D90073D8FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2408492E249097D90073D8FC /* AppDelegate.swift in Sources */,
+				24084930249097D90073D8FC /* SceneDelegate.swift in Sources */,
+				24084935249097D90073D8FC /* ContentView.swift in Sources */,
+				24084933249097D90073D8FC /* BulldogAlertPractice.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2408493F249097E70073D8FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24084948249097E70073D8FC /* BulldogAlertPracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2408494A249097E70073D8FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24084953249097E70073D8FC /* BulldogAlertPracticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24084945249097E70073D8FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24084929249097D90073D8FC /* BulldogAlertPractice */;
+			targetProxy = 24084944249097E70073D8FC /* PBXContainerItemProxy */;
+		};
+		24084950249097E70073D8FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24084929249097D90073D8FC /* BulldogAlertPractice */;
+			targetProxy = 2408494F249097E70073D8FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2408493B249097E60073D8FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2408493C249097E60073D8FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24084955249097E70073D8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24084956249097E70073D8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24084958249097E70073D8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BulldogAlertPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = VBDRCY6L36;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BulldogAlertPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Lituation.BulldogAlertPractice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24084959249097E70073D8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BulldogAlertPractice/Preview Content\"";
+				DEVELOPMENT_TEAM = VBDRCY6L36;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BulldogAlertPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Lituation.BulldogAlertPractice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2408495B249097E70073D8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBDRCY6L36;
+				INFOPLIST_FILE = BulldogAlertPracticeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Lituation.BulldogAlertPracticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BulldogAlertPractice.app/BulldogAlertPractice";
+			};
+			name = Debug;
+		};
+		2408495C249097E70073D8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBDRCY6L36;
+				INFOPLIST_FILE = BulldogAlertPracticeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Lituation.BulldogAlertPracticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BulldogAlertPractice.app/BulldogAlertPractice";
+			};
+			name = Release;
+		};
+		2408495E249097E70073D8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBDRCY6L36;
+				INFOPLIST_FILE = BulldogAlertPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Lituation.BulldogAlertPracticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BulldogAlertPractice;
+			};
+			name = Debug;
+		};
+		2408495F249097E70073D8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBDRCY6L36;
+				INFOPLIST_FILE = BulldogAlertPracticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Lituation.BulldogAlertPracticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BulldogAlertPractice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24084925249097D80073D8FC /* Build configuration list for PBXProject "BulldogAlertPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24084955249097E70073D8FC /* Debug */,
+				24084956249097E70073D8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24084957249097E70073D8FC /* Build configuration list for PBXNativeTarget "BulldogAlertPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24084958249097E70073D8FC /* Debug */,
+				24084959249097E70073D8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2408495A249097E70073D8FC /* Build configuration list for PBXNativeTarget "BulldogAlertPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2408495B249097E70073D8FC /* Debug */,
+				2408495C249097E70073D8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2408495D249097E70073D8FC /* Build configuration list for PBXNativeTarget "BulldogAlertPracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2408495E249097E70073D8FC /* Debug */,
+				2408495F249097E70073D8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		24084931249097D90073D8FC /* BulldogAlertPractice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24084932249097D90073D8FC /* BulldogAlertPractice.xcdatamodel */,
+			);
+			currentVersion = 24084932249097D90073D8FC /* BulldogAlertPractice.xcdatamodel */;
+			path = BulldogAlertPractice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 24084922249097D80073D8FC /* Project object */;
+}
